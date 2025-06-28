@@ -26,7 +26,7 @@ int main(){
         }
 
         std::cin >> guess;
-        guess = toupper(guess); //uppercase
+        guess = toupper(guess);
 
         if(guess == answerKey[i]){
             std::cout << "CORRECT \n";
